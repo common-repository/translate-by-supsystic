@@ -1,0 +1,38 @@
+.tbsLangTabSwitch.nav-tab-active:active,
+.tbsLangTabSwitch.nav-tab-active:hover,
+.tbsLangTabSwitch.nav-tab-active:focus,
+.tbsLangTabSwitch.nav-tab:active,
+.tbsLangTabSwitch.nav-tab:hover,
+.tbsLangTabSwitch.nav-tab:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.tbsLangTabSwitch img, .tbsLangTabSwitch .tbsLangTabTitle {
+	vertical-align: middle;
+}
+#update-nav-menu .nav-tab-active, 
+#update-nav-menu .nav-tab-active:focus, 
+#update-nav-menu .nav-tab-active:focus:active, 
+#update-nav-menu .nav-tab-active:hover {
+	background-color: #fff;
+	border-bottom-color: #fff;
+}
+/*Styles for Gallery by Supsystic plugin*/
+#sg-gallery-lang-tabs {
+	margin-left: -5px;
+}
+#sg-gallery-lang-tabs .tbsLangTabs, #sg-gallery-lang-tabs .tbsLangTabs .nav-tab {
+	margin-left: 0;
+}
+#sg-gallery-lang-tabs .tbsLangTabs {
+	margin-top: 0;
+	padding-top: 0;
+	border-bottom: none;
+}
+#sg-gallery-lang-tabs .tbsLangTabs .nav-tab {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	line-height: 16px;
+	color: inherit;
+}
